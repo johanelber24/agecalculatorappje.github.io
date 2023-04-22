@@ -67,32 +67,6 @@ a {
         background-color: var(--light-red);
     }
 }
-/* ANIMACION TITULO */
-@keyframes typing {
-    100%{
-        border-color: var(--light-red);
-    }
-    75%{
-        border-color: var(--light-red);
-    }
-    50%{
-        border-color: var(--light-red);
-    }
-    15%{
-        border-color: var(--purple);
-    }
-    0%{
-        width: 0;
-
-        border-color: var(--purple);
-    }
-}
-@keyframes blink {
-    50%{
-        border-color: transparent;
-    }
-}
-/* ANIMAR RESULTADO */
 
 
 /* APP */
