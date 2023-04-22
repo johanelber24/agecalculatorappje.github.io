@@ -80,43 +80,6 @@ a {
     justify-content: center;
     padding: 5rem 0;
 }
-
-.app-titulo {
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 2rem;
-    width: 20ch;
-    text-align: center;
-    margin: 0;
-    margin-bottom: 2.5rem;
-    color: var(--light-red);
-    text-shadow: 2px 2px 10px;
-    animation: typing 3s steps(20) infinite alternate, blink .5s steps(20) infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: .5rem solid var(--light-red);
-}
-.titulo-span {
-    color: var(--purple);
-}
-@media (min-width: 375px) {
-    .app-titulo {
-        font-size: 3rem;
-        width: 18ch;
-    }
-}
-@media (min-width: 700px) {
-    .app-titulo {
-        font-size: 5rem;
-        width: 17ch;
-    }
-}
-@media (min-width: 1200px) {
-    .app-titulo {
-        font-size: 6rem;
-        width: 16.5ch;
-    }
-}
 .app {
     max-width: 75rem;
     width: 90%;
